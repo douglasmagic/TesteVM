@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Programa2VM" ISN_2="1" LastIsn="1" id="2097155">
+        <Header Description="Programa2Note" ISN_2="1" LastIsn="1" id="2097155">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,12 +27,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736965" _time="56070" date="28/09/2018" time="15:34:30"/>
+          <LastModified _date="736965" _time="56221" date="28/09/2018" time="15:37:01"/>
         </Header>
         <ItemIsn val="1"/>
         <Resource>
           <Columns>
-            <Column id="2097153" name="Variavel">
+            <Column id="2097153" name="Variavel22222">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="10"/>
@@ -139,7 +139,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Programa2VM"/>
+              <FormName id="311" valUnicode="Programa2Note"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
