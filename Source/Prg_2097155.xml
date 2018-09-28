@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Programa2Note" ISN_2="1" LastIsn="1" id="2097155">
+        <Header Description="NovoPrograma2VM" ISN_2="1" LastIsn="1" id="2097155">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,18 +27,28 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736965" _time="56221" date="28/09/2018" time="15:37:01"/>
+          <LastModified _date="736965" _time="56423" date="28/09/2018" time="15:40:23"/>
         </Header>
-        <ItemIsn val="1"/>
+        <ItemIsn val="2"/>
         <Resource>
           <Columns>
-            <Column id="2097153" name="Variavel22222">
+            <Column id="2097153" name="Variavel1">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="10"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="10"/>
                 <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="2097154" name="variavel2">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="10"/>
+                <_Negative id="192"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -132,6 +142,18 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="2097154" FlowIsn="2097156" id="2097154">
+                  <Column val="2097154"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
@@ -139,7 +161,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Programa2Note"/>
+              <FormName id="311" valUnicode="NovoPrograma2VM"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
