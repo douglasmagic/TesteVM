@@ -27,12 +27,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736965" _time="46650" date="28/09/2018" time="12:57:30"/>
+          <LastModified _date="736965" _time="51352" date="28/09/2018" time="14:15:52"/>
         </Header>
         <ItemIsn val="1"/>
         <Resource>
           <Columns>
-            <Column id="2097153" name="Variavel">
+            <Column id="2097153" name="Variavel_mudou_Note">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="10"/>
